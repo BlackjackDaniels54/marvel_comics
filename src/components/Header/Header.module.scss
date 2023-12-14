@@ -1,0 +1,42 @@
+@import "../../variables.sass";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.header__title {
+    font-size: 28px ;
+    font-weight: 700;
+    a {
+        color: #000; 
+    }
+    span {
+        color: $main-color;
+        margin-right: 10px;
+    }
+}
+
+.header__menu {
+    
+    ul {
+        font-size: 24px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        color: #000;
+        
+        li {
+            margin: 0 5px;
+        }
+    }
+    a {
+        color: #000; 
+
+    }
+    a:hover {
+        color: $main-color;
+    }
+}

@@ -1,0 +1,31 @@
+@import '../../variables.sass';
+
+.list__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: auto;
+    grid-gap:  30px;
+}
+
+
+.list__item {
+    background-color: $dark-gray;
+
+}
+
+.list__name {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    padding: 5px 15px;
+    min-height: 100px;
+}
+.list__item.active {
+    -webkit-box-shadow: 0px 0px 31px 5px rgba(199,30,30,0.58);
+    -moz-box-shadow: 0px 0px 31px 5px rgba(199,30,30,0.58);
+    box-shadow: 0px 0px 31px 5px rgba(199,30,30,0.58);
+    transform: translateY(-7px);
+}
+

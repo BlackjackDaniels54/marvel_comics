@@ -1,0 +1,23 @@
+@import '../../../variables.sass';
+
+.btn {
+    text-align: center;
+    clip-path: polygon(10% 0, 100% 0, 100% 20%, 100% 84%, 90% 100%, 0 100%, 0% 80%, 0% 20%);
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 18px;
+    min-width: 101px;
+    font-size: 14px;
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-7px);
+}
+
+.red {
+    background-color: $main-color;
+}
+.gray {
+    background-color: $light-gray;
+}

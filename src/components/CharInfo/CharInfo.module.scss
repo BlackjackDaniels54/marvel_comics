@@ -1,0 +1,26 @@
+.info__top__container {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 1fr repeat(2, 0.5fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+
+        .div1 { 
+            grid-area: 1 / 1 / 4 / 2; 
+
+            img {
+                max-width: 150px;
+            }
+
+        }
+        .div2 {     
+            grid-area: 1 / 2 / 2 / 3;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 29px;
+         }
+        .div3 { grid-area: 2 / 2 / 3 / 3; }
+        .div4 { grid-area: 3 / 2 / 4 / 3; }
+}
